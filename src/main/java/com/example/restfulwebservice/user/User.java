@@ -24,7 +24,7 @@ public class User {
 
 	private Integer id;
 	
-	@Size(min = 3, max = 10, message = "Name은 3~10자로 입력해주세요.")
+	@Size(min = 4, max = 10, message = "Name은 4~10자로 입력해주세요.")
 	@ApiModelProperty(notes = "사용자 이름을 입력해 주세요.")
 	private String name;
 	
